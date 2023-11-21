@@ -1,3 +1,3 @@
 # Tecta-gradnja
 
-https://tecta-gradnja.hr/
+<a href="https://tecta-gradnja.hr/" target="_blank">Tecta gradnja</a>
