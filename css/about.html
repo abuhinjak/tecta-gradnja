@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tecta-gradnja | O nama</title>
+
+        <!-- Lightbox -->
+        <link href="./css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Bootstrap -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+        />
+        <!-- Bootstrap ikone -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+
+        <!-- Stilovi -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- FontAwesome -->
+        <script
+            src="https://kit.fontawesome.com/6296fa1a27.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- Loader -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+
+        <nav class="container-fluid">
+            <div class="navbar container">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./img/logo_1.jpg" alt="Tecta-gradnja logo" />
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link"> Početna </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/about.html" class="nav-link"> O Nama </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/kontakt.html" class="nav-link"> Kontakt </a>
+                    </li>
+                </ul>
+                <div class="hamb-menu d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <main class="showcase-wrap">
+            <h1 class="main-section-title container text-center">O <span>nama</span></h1>
+        </main>
+
+        <section class="about-us-info-wrap">
+            <div class="about-us-info-img">
+                <img src="./img/pogledaj-vise.webp" alt="Pročitaj više o Tecta-gradnja">
+            </div>
+            <div class="about-us-info-content">
+                <h2 class="about-us-info-content-title">
+                    Naša <span>priča</span>
+                </h2>
+                <p class="about-us-info-content-text">
+                    TECTA-GRADNJA d.o.o. je poduzeće koje obavlja završne radove u građevinarstvu. Sa sjedištem u Čepinu svoju djelatnost usmjeravamo na Osječko-baranjsku županiju i okolicu. Relativno mladi na Hrvatskom tržištu, iza sebe imamo dugogodišnje znanje i iskustvo, te nam je cilj usavršavati svoje mogućnosti te ispuniti sve zahtjeve naših korisnika. 
+                    <br />
+                    <br />
+                    Djelatnost fokusiramo na strojno žbukanje, fasaderske radove, gletanje i krečenje. Koristimo se najnovijom opremom, alatima i strojevima, te garantiramo kako kvalitetu tako i brzinu i efikasnost. Poštivanje unaprijed dogovorenih rokova za nas je najvažnije. Obratite nam se s povjerenjem. Uvjerite se sami u naše prednosti.
+                </p>
+            </div>
+        </section>
+
+        <section class="our-works-wrap">
+            <h2 class="main-section-title our-works mb-5">Naši <span>radovi</span></h2>
+
+                <button onclick="loadData()" id="main-section-button" class="button button-primary" href="#" style="opacity: 1; transform: translateX(0px);"><span class="button-hide">Prikaži više</span><span class="button-show">Prikaži više</span></button>
+        </section>
+
+
+
+
+        <footer class="main-footer">
+            <div class="footer-content container">
+                <div class="info">
+                    <div class="info-content-wrap">
+                        <div class="info-content">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <img src="./img/logo_1.jpg" alt="Tecta-gradnja logo" />
+                                </a>
+                            </div>
+                            <p class="tekst">
+                                Obratite nam se sa povjerenjem. Uvjerite se sami
+                                u naše prednosti. Učiniti ćemo sve da ostvarimo
+                                i zadržimo zadovoljstvo naših korisnika.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-content-wrap">
+                        <div class="info-content">
+                            <h3 class="usluge-naslov">Usluge</h3>
+                            <ul class="popis-usluga">
+                                <li class="usluga">Strojno žbukanje</li>
+                                <li class="usluga">Fasade</li>
+                                <li class="usluga">Soboslikarski radovi</li>
+                                <li class="usluga">
+                                    Obnove, sanacije i renoviranje
+                                </li>
+                                <li class="usluga">Adaptacije kuće</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-content-wrap">
+                        <div class="info-content">
+                            <h3 class="usluge-naslov">Kontakt info</h3>
+                            <ul class="popis-usluga">
+                                <li class="usluga kontakt">
+                                    <span class="ikona me-3">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </span>
+                                    Biokovska 11, 31431 Čepin
+                                </li>
+                                <li class="usluga kontakt">
+                                    <a href="tel:+385917360278">
+                                        <span class="ikona me-3">
+                                            <i class="bi bi-telephone"></i>
+                                        </span>
+                                        +385 91 736 0278</a
+                                    >
+                                </li>
+                                <li class="usluga kontakt">
+                                    <a href="mailto:tectagradnja@gmail.com">
+                                        <span class="ikona mail me-3">
+                                            <i class="bi bi-envelope"></i>
+                                        </span>
+                                        tectagradnja@gmail.com</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright" class="copyright text-center"></div>
+        </footer>
+
+        <!-- Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- Jquery plus -->
+        <script src="./js/lightbox-plus-jquery.min.js"></script>
+
+        <script src="./about.js"></script>
+
+        <script>
+            loadInitialItems(); // Poziv funkcije nakon što se stranica potpuno učita
+        </script>
+    </body>
+</html>

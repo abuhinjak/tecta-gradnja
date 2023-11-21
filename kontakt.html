@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tecta-gradnja | Kontakt</title>
+
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+
+        <!-- Bootstrap ikone -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+
+        <!-- Stilovi -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- FontAwesome -->
+        <script
+            src="https://kit.fontawesome.com/6296fa1a27.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <!-- Loader -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+
+        <nav class="container-fluid">
+            <div class="navbar container">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./img/logo_1.jpg" alt="Tecta-gradnja logo" />
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link"> Početna </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/about.html" class="nav-link"> O Nama </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link"> Kontakt </a>
+                    </li>
+                </ul>
+                <div class="hamb-menu d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <main class="showcase-wrap">
+            <h1 class="main-section-title container text-center">Kontakt</h1>
+        </main>
+
+        <section class="kontakt-wrap">
+            <div class="kontakt-info-wrap">
+                <div class="info-content">
+                    <h3 class="usluge-naslov">Kontakt info</h3>
+                    <ul class="popis-usluga">
+                        <li class="usluga kontakt one">
+                            <span class="ikona me-3">
+                                <i class="bi bi-geo-alt"></i>
+                            </span>
+                            Biokovska 11, 31431 Čepin
+                        </li>
+                        <li class="usluga kontakt two">
+                            <a href="tel:+385917360278">
+                                <span class="ikona me-3">
+                                    <i class="bi bi-telephone"></i>
+                                </span>
+                                +385 91 736 0278</a
+                            >
+                        </li>
+                        <li class="usluga kontakt three">
+                            <a href="mailto:tectagradnja@gmail.com">
+                                <span class="ikona mail me-3">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                                tectagradnja@gmail.com</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map-container">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe
+                            width="1080"
+                            height="500"
+                            id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Biokovska%2011,%20%C4%8Depin&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0"
+                            scrolling="no"
+                            marginheight="0"
+                            marginwidth="0"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-wrap">
+            <h2 class="contact-form-title main-section-title">
+                Trebate pomoć? Javite nam se!
+                <br />
+                <span></span>
+            </h2>
+            <div id="contact-form">
+                <form id="form" method="POST">
+                    <div class="form-group">
+                        <input
+                            id="fullName"
+                            name="message"
+                            type="text"
+                            placeholder="Ime i prezime *"
+                            class="name"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <input
+                            id="email"
+                            name="message"
+                            type="email"
+                            placeholder="E-mail adresa *"
+                            class="email"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <textarea
+                            id="message"
+                            name="message"
+                            class="message"
+                            cols="30"
+                            rows="5"
+                            placeholder="Kako Vam možemo pomoći?"
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="button button-primary submit">
+                        <span class="button-hide">Pošalji</span
+                        ><span class="button-show">Pošalji</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="footer-content container">
+                <div class="info">
+                    <div class="info-content-wrap">
+                        <div class="info-content">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <img
+                                        src="./img/logo_1.jpg"
+                                        alt="Tecta-gradnja logo"
+                                    />
+                                </a>
+                            </div>
+                            <p class="tekst">
+                                Obratite nam se sa povjerenjem. Uvjerite se sami
+                                u naše prednosti. Učiniti ćemo sve da ostvarimo
+                                i zadržimo zadovoljstvo naših korisnika.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-content-wrap">
+                        <div class="info-content">
+                            <h3 class="usluge-naslov">Usluge</h3>
+                            <ul class="popis-usluga">
+                                <li class="usluga">Strojno žbukanje</li>
+                                <li class="usluga">Fasade</li>
+                                <li class="usluga">Soboslikarski radovi</li>
+                                <li class="usluga">
+                                    Obnove, sanacije i renoviranje
+                                </li>
+                                <li class="usluga">Adaptacije kuće</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-content-wrap">
+                        <div class="info-content">
+                            <h3 class="usluge-naslov">Kontakt info</h3>
+                            <ul class="popis-usluga">
+                                <li class="usluga kontakt">
+                                    <span class="ikona me-3">
+                                        <i class="bi bi-geo-alt"></i>
+                                    </span>
+                                    Biokovska 11, 31431 Čepin
+                                </li>
+                                <li class="usluga kontakt">
+                                    <a href="tel:+385917360278">
+                                        <span class="ikona me-3">
+                                            <i class="bi bi-telephone"></i>
+                                        </span>
+                                        +385 91 736 0278</a
+                                    >
+                                </li>
+                                <li class="usluga kontakt">
+                                    <a href="mailto:tectagradnja@gmail.com">
+                                        <span class="ikona mail me-3">
+                                            <i class="bi bi-envelope"></i>
+                                        </span>
+                                        tectagradnja@gmail.com</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright" class="copyright text-center"></div>
+        </footer>
+
+        <!-- Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        ></script>
+
+        <!-- <script type="text/javascript">
+              (function () {
+    emailjs.init("user_Ps3tErh1WTjyI5FSecJGW");
+  })();
+        </script> -->
+
+        <!-- Sweet Alert.js -->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+        <script src="./kontakt.js"></script>
+    </body>
+</html>
